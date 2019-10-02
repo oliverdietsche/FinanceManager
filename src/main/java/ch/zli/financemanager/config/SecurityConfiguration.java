@@ -1,7 +1,5 @@
 package ch.zli.financemanager.config;
 
-import ch.zli.financemanager.filter.JwtAuthenticationFilter;
-import ch.zli.financemanager.filter.JwtAuthorizationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
