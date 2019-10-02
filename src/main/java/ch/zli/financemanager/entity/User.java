@@ -20,6 +20,10 @@ public class User {
     @ManyToMany
     private Set<Role> roles;
 
+    public boolean hasRoles() {
+        return roles != null;
+    }
+
     public long getId() {
         return id;
     }

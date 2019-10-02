@@ -48,10 +48,10 @@ public class ProjectService {
 
     public Project updateProject(Project project, long id) throws Exception {
         Project updatedProject;
-        Optional<Project> optionalUpdatedEntry = findProjectById(id);
+        Optional<Project> optionalUpdatedProject = findProjectById(id);
 
-        if (optionalUpdatedEntry.isPresent()) {
-            updatedProject = optionalUpdatedEntry.get();
+        if (optionalUpdatedProject.isPresent()) {
+            updatedProject = optionalUpdatedProject.get();
             updatedProject.setTitle(project.getTitle());
         } else {
             throw new Exception("Couldn't update project, because it didn't exist!");
