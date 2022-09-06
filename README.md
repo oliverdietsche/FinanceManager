@@ -1,4 +1,5 @@
 # FinanceManager
+Dieses Projekt wurde als Schulprojekt während der Berufslehre als Informatiker erstellt.
 
 ## Summary
 Diese Applikation wird zum Erfassen von Zahlungen genutzt. Die Zahlungen müssen jeweils einem Projekt angehören, die man verwalten kann. Um die Zahlungen noch ein wenig zu ordnen kann man ihnen noch eine Kategorie zuweisen.
